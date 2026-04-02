@@ -1,0 +1,21 @@
+# OlymMATH Solver — Python Requirements
+# Install: pip install -r requirements.txt
+
+# Core ML
+torch>=2.3.0
+unsloth[colab-new]>=2024.9
+transformers>=4.44.0
+accelerate>=0.34.0
+peft>=0.13.0
+bitsandbytes>=0.43.0
+
+# Training
+trl>=0.12.0
+datasets>=2.20.0
+
+# Display
+rich>=13.7.0
+psutil>=5.9.0
+
+# HF Hub (optional, for push_to_hub)
+huggingface_hub>=0.24.0
